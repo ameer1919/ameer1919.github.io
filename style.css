@@ -1,125 +1,112 @@
-/* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body styles */
-  body {
-    font-family: 'Comic Sans MS', cursive;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #C7395F; /* Pink background */
-  }
-  
-  /* Header styles */
-  h1 {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 48px;
-    color: #E8BA40; /* Gold text */
-    margin: 20px 0;
-    text-transform: uppercase;
-    background-color: #DED4E8; /* Lavender background */
-    color: #C7395F; /* Pink text */
-    padding: 20px;
-    border-radius: 50px; /* Round header */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  }
-  
-  /* Main container styles */
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    max-width: 800px;
-  }
-  
-  /* Link styles */
-  a {
-    text-decoration: none;
-    color: #E8BA40; /* Gold text */
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  a:hover {
-    color: #C7395F; /* Pink text */
-    text-decoration: underline;
-  }
-  
-  /* Section styles */
-  section {
-    background-color: #DED4E8; /* Lavender background */
-    margin: 20px 0;
-    padding: 20px;
-    border: 2px dotted #E8BA40; /* Gold dotted border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  section:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-  }
-  
-  /* Image styles */
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border: 2px dashed #C7395F; /* Pink dashed border */
-    border-radius: 10px;
-    transition: transform 0.3s;
-  }
-  
-  img:hover {
-    transform: rotate(15deg); /* Rotate on hover */
-  }
-  
-  /* Lists styles */
-  ul, ol {
-    list-style: none;
-    padding-left: 20px;
-    margin: 10px 0;
-  }
-  
-  /* Result paragraph styles */
-  p#result {
-    font-size: 24px; /* Larger text size */
-    margin: 20px;
-    color: #E8BA40; /* Gold text */
-  }
-  
-  /* Footer styles */
-  footer {
-    background-color: #DED4E8; /* Lavender background */
-    color: #C7395F; /* Pink text */
-    text-align: center;
-    padding: 10px;
-    border-radius: 0 0 20px 20px; /* Round footer */
-  }
-  
-  /* Responsive styles for small screens */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 36px; /* Adjusted header font size */
-    }
-    section {
-      margin: 10px 0;
-    }
-    img:hover {
-      transform: rotate(0deg); /* Reset rotation on small screens */
-    }
-  }
-   
+
+<html>
+<head>
+    <link rel="icon" href="8-money-cat_icon-icons.com_76684.ico">
+<title>amyir's| Bananz</title>
+<i> </i>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+    <body>
+      <main>
+        <script src="index1.js"></script>
+        <h1>Amyir's snow photos</h1>
+        <section>
+          <h2>3D photo</h2>
+          <!-- TODO: Add link to cat photos -->
+          <p>See more <a target="_blank" href="https://www.youtube.com/watch?v=ZgQLhk_61l0">snow photos</a> in our gallery.</p>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-6/468885972_8924763514284869_3890614668958205700_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-_kYx4aUBPYQ7kNvgH24sH4&_nc_zt=23&_nc_ht=scontent.fmji4-1.fna&_nc_gid=AN13y1htBzv27SpKLJZe0V1&oh=00_AYDFP_Hl4kvCdC_2ByG9Jbkn1IBGKHxPs6jpFbwH-KXCyA&oe=679217BF" alt="A cute orange cat lying on its back."></a>
+        </section>
+        <section>
+            <h2>snow</h2>
+            <section>
+            <h3>bananaz:</h3>
+            <ul>
+              <li>finn</li>
+              <li>jake</li>
+              <li>simon</li>
+            </ul>
+            <figure>
+              <img src="https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-6/456670909_8229115337183027_6575141866027635997_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OPnHTuCL914Q7kNvgG0j4OU&_nc_zt=23&_nc_ht=scontent.fmji4-1.fna&_nc_gid=AxfwsPZOIF4_Ne_MBVrMHDf&oh=00_AYDdZbSVWde46LPvYMYKPd8RJoDfFR5hI4QOJJPh4c9T-g&oe=67921774" alt="A slice of lasagna on a plate.">
+              <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+            </figure>
+            </section>
+            <section>
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+              <li>flea treatment</li>
+              <li>thunder</li>
+              <li>other cats</li>
+            </ol>
+            <figure>
+              <img src="https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-6/456427069_8229107637183797_4111014333430288302_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=vbs5L7pYXakQ7kNvgGAn5zS&_nc_zt=23&_nc_ht=scontent.fmji4-1.fna&_nc_gid=A_wq1kp4yNyls5UDv1__mpD&oh=00_AYD1RQOM431DquKbttgrzcTWUc5u34DKvgOO7EXY7draXg&oe=6792082F" alt="Five cats looking around a field.">
+              <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+            </section>
+            </section>
+            </figure>
+        
+        </main>
+    </body>
+  </html>
+<footer>
+
+
+</footer>
+
+<html>
+<head>
+    <link rel="icon" href="8-money-cat_icon-icons.com_76684.ico">
+<title>amyir's| Bananz</title>
+<i> </i>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+    <body>
+      <main>
+        <script src="index1.js"></script>
+        <h1>Amyir's snow photos</h1>
+        <section>
+          <h2>3D photo</h2>
+          <!-- TODO: Add link to cat photos -->
+          <p>See more <a target="_blank" href="https://www.youtube.com/watch?v=ZgQLhk_61l0">snow photos</a> in our gallery.</p>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-6/468885972_8924763514284869_3890614668958205700_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-_kYx4aUBPYQ7kNvgH24sH4&_nc_zt=23&_nc_ht=scontent.fmji4-1.fna&_nc_gid=AN13y1htBzv27SpKLJZe0V1&oh=00_AYDFP_Hl4kvCdC_2ByG9Jbkn1IBGKHxPs6jpFbwH-KXCyA&oe=679217BF" alt="A cute orange cat lying on its back."></a>
+        </section>
+        <section>
+            <h2>snow</h2>
+            <section>
+            <h3>bananaz:</h3>
+            <ul>
+              <li>finn</li>
+              <li>jake</li>
+              <li>simon</li>
+            </ul>
+            <figure>
+              <img src="https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-6/456670909_8229115337183027_6575141866027635997_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OPnHTuCL914Q7kNvgG0j4OU&_nc_zt=23&_nc_ht=scontent.fmji4-1.fna&_nc_gid=AxfwsPZOIF4_Ne_MBVrMHDf&oh=00_AYDdZbSVWde46LPvYMYKPd8RJoDfFR5hI4QOJJPh4c9T-g&oe=67921774" alt="A slice of lasagna on a plate.">
+              <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+            </figure>
+            </section>
+            <section>
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+              <li>flea treatment</li>
+              <li>thunder</li>
+              <li>other cats</li>
+            </ol>
+            <figure>
+              <img src="https://scontent.fmji4-1.fna.fbcdn.net/v/t39.30808-6/456427069_8229107637183797_4111014333430288302_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=vbs5L7pYXakQ7kNvgGAn5zS&_nc_zt=23&_nc_ht=scontent.fmji4-1.fna&_nc_gid=A_wq1kp4yNyls5UDv1__mpD&oh=00_AYD1RQOM431DquKbttgrzcTWUc5u34DKvgOO7EXY7draXg&oe=6792082F" alt="Five cats looking around a field.">
+              <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+            </section>
+            </section>
+            </figure>
+        
+        </main>
+    </body>
+  </html>
+<footer>
+
+
+</footer>
