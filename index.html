@@ -1,44 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #0A1F44;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-<body>
-    <h1>amyir is her</h1>
-    <hr>
-    <h2>where</h2>
-    <p>it is about when and how when ever you want to ask <a href="https://www.facebook.com/ameeralabod1/">amyir</a>
-        about it</p>
-    <hr>
-    <h2>where and how</h2>
+.logo-box {
+  background-color: #0A1F44;
+  padding: 40px;
+  border-radius: 12px;
+}
 
-    <ul>
-        <li>here</li>
-        <li>there</li>
-        <li>and later</li>
-    </ul>
-    
-    <input type="password" placeholder="password">
-    <svg width="300" height="200">
-        <polygon points="100,10 40,198 190,78 10,78 160,198"
-        style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
-      </svg>
-    <input type="text" placeholder="text">
-    <button>click me</button>
-    <select name="" id="">
-        <option value="ali">ali</option>
-        <option value="mo" selected>mo</option>
-        <option value="kool">ko</option>
-    </select>
-    <iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-  
-</body>
+.logo {
+  width: 350px;
+  max-width: 90vw;
+}
 
-</html>
+h1 {
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #0A1F44;
+}
+
+.dots::after {
+  content: '';
+  display: inline-block;
+  animation: dots 1.5s infinite steps(4);
+  width: 1em;
+  text-align: left;
+}
+
+@keyframes dots {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
