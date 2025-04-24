@@ -1,65 +1,54 @@
-h1 {
-  text-align: center;
-  text-decoration: underline dotted rgb(144, 85, 144);
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c5a87a;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #0A1F44;
+  }
   
-}
-
-h2 {
-  margin-right: 40%;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
-  text-align: center;
-}
-
-li {
-  text-align: center;
-
-  margin-right: 40%;
-  list-style-position: inside;
-}
-p{
-
-  text-align: center;
-  margin-right: 30%;
-}button
-{
- background-color: black;
-color: white;
-transition: color 0.5s, background-color 0.6s;  
-border-radius: 15%;
-margin-left: 0%;
-}
-button:hover{
-margin-top: 1px;
-background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);
-
-}
-input[type="text"]{
-
-  background-color: rgb(0, 0, 0);
-  color: aliceblue;
-  border-color: rgb(45, 34, 34);
+  .logo-box {
+    background-color: #0A1F44;
+    padding: 40px;
+    border-radius: 12px;
+  }
   
-}
-input{
-  margin-left: 20%;
-}
-select{
-  color: #4deeea;
-  background-color: black;
- transition:border-radius 0.5s ;
-}
-select:hover{
-  color: #3ab3b1;
-  border-radius: 30%;
-}
-body{
-  background-color: rgb(14, 14, 14);
-  color: #ffffff;
-}
-iframe{
-  border-radius: 20%;
-  border-color: #3ab3b1;
-  margin-left: 42%;
-margin-top: -12%;
-}
+  .logo {
+    width: 350px;
+    max-width: 90vw;
+  }
+  
+  h1 {
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #0A1F44;
+  }
+  
+  .dots::after {
+    content: '';
+    display: inline-block;
+    animation: dots 1.5s infinite steps(4);
+    width: 1em;
+    text-align: left;
+  }
+  
+  @keyframes dots {
+    0%   { content: ''; }
+    25%  { content: '.'; }
+    50%  { content: '..'; }
+    75%  { content: '...'; }
+    100% { content: ''; }
+  }
+  
